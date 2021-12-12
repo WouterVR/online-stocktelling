@@ -1,0 +1,21 @@
+{
+  "name": "online-stocktelling",
+  "version": "1.0.0",
+  "description": "This web application enables you to count the stock of JH de Bem online",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "online",
+    "stock",
+    "stockcounting"
+  ],
+  "author": "Wouter Van Rompaey",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "http": "0.0.1-security",
+    "node-fetch": "^3.1.0"
+  }
+}
