@@ -1,0 +1,197 @@
+:root{
+    --primary: #000000;
+    --secondary: #efeb1d;
+    --tertairy: #a14c04;
+    --quartairy: #5aa0d5;
+    --background: #ffffff;
+    --mdc-theme-primary: #000000;
+    --dark: #333;
+    --light: #fff;
+    --text_shadow: 0 0 3px rgba(104, 104, 104, 0.8);
+    --box_shadow: 0 1px 10px rgba(104, 104, 104, 0.8);
+    font-family: "Roboto Light", sans-serif;
+}
+
+header {
+    background: var(--background);
+    text-align: center;
+    padding: 10px;
+    max-width: fit-content;
+    margin: auto;
+}
+
+body{
+    margin: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-tableNumber-remark {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 500px;
+    max-height: 110px;
+}
+
+.item-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+}
+
+.item-container {
+    margin: auto;
+    padding: 5px;
+    width: max-content;
+    display: flex;
+    justify-content: space-between;
+    min-width: 200px;
+}
+
+.item-name-price{
+    flex-grow: 5;
+    margin-right: 100px;
+}
+
+.payconiq-cash-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 500px;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+}
+.logo-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#payconiq_logo{
+    max-width: 60%;
+    margin: auto;
+    height: auto;
+    width: auto\9; /* ie8 */
+
+}
+#cash_logo{
+    max-width: 60%;
+    margin: auto;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+.category-name{
+    font-weight: bold;
+}
+
+.item-name {
+    width: 75px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.item-times-name {
+    width: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+span {
+    padding: 2px;
+}
+p {
+    padding: 2px;
+}
+.item-€-price {
+    font-size: 80%;
+    color: #a1a1a1;
+    margin-bottom: 5px;
+}
+
+.item-amount-buttons{
+    display: flex;
+    align-items: center;
+    flex-shrink: 3;
+}
+
+.button {
+    background: var(--tertairy);
+    color: var(--tertairy);
+    background-color: black;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border: 0;
+}
+
+.addMenuItemButton {
+    margin: 20px;
+}
+
+.mdc-button--outlined {
+    background-color: black;
+}
+
+footer {
+    position: sticky;
+    position: -webkit-sticky;
+    bottom: 0;
+    background-color: #efefef;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.space-between-footer {
+    width: 50px;
+    flex-shrink: 5;
+}
+
+#logo {
+    max-width: 100px;
+}
+.order-received-div {
+    padding: 10px;
+}
+
+.loader {
+    border: 10px solid #f3f3f3; /* Light grey */
+    border-top: 10px solid #000000; /* black */
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
